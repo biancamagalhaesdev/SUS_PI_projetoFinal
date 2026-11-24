@@ -8,9 +8,8 @@ st.set_page_config(page_title="SUS Inteligente — Piauí", page_icon="🩺", la
                    initial_sidebar_state="collapsed")
 
 from utils.config import PAGINA  # noqa: E402
-from utils.ui import configurar_estilo  # noqa: E402
 
-configurar_estilo()
+# O estilo visual é aplicado por cada página (utils.ui.cabecalho).
 paginas = [
     st.Page(PAGINA["mapa"], title="Mapa", icon=":material/map:", default=True),
     st.Page(PAGINA["municipio"], title="Município", icon=":material/location_city:"),
