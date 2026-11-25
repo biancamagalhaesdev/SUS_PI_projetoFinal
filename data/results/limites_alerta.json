@@ -1,0 +1,33 @@
+{
+ "queda": {
+  "atencao": 0.40465384112901553,
+  "alerta": 0.005055207400776006,
+  "cauda": "inferior",
+  "n_referencia": 7250
+ },
+ "instabilidade": {
+  "atencao": 1.4402919612240548,
+  "alerta": 2.5492387392695783,
+  "cauda": "superior",
+  "n_referencia": 8162
+ },
+ "anomalia": {
+  "atencao": 0.6037488607456671,
+  "alerta": 0.70182865367374,
+  "cauda": "superior",
+  "n_referencia": 8064,
+  "referencia_inicio": "2022-01"
+ },
+ "desvio": {
+  "atencao": 2.567867705689869,
+  "alerta": 4.440028005621894,
+  "cauda": "superior",
+  "n_referencia": 2688,
+  "modelo": "Random Forest"
+ },
+ "regra": {
+  "atencao": "mais extremo que 95% dos casos de referência",
+  "alerta": "mais extremo que 99% dos casos de referência",
+  "referencia": "2021-01 a 2024-12 (desvio: 2025-01 a 2025-12)"
+ }
+}

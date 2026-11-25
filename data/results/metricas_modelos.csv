@@ -1,0 +1,9 @@
+modelo,periodo,conjunto_atributos,hiperparametros,MAE,RMSE,MAPE,R2,meses_com_zero,n,escolhido
+Naive sazonal,validação,—,—,2960.8318452380954,24443.628129376215,106.86583584932964,0.9721914647342305,102,2688,False
+Regressão Linear,validação,B — calendário e histórico,padrão,1823.228765018838,10805.128535786853,468.9572613902527,0.9945661624160219,102,2688,False
+Random Forest,validação,"C — calendário, histórico e territoriais","{'max_depth': 15, 'min_samples_leaf': 5}",1774.86412626889,13160.8797974442,121.57825252909815,0.9919384857977023,102,2688,True
+Rede neural MLP,validação,"C — calendário, histórico e territoriais","{'hidden': (64, 32), 'alpha': 0.0001}",2828.9609512777643,12671.11005775453,689.0859055556765,0.9925273248276021,102,2688,False
+Naive sazonal,teste,—,—,4504.696986607143,40494.78585034486,168.89709061645928,0.9164970551563075,225,1792,False
+Regressão Linear,teste,B — calendário e histórico,padrão,3654.5637833299616,34639.28958392689,1083.624325098601,0.9388999548016553,225,1792,False
+Random Forest,teste,"C — calendário, histórico e territoriais","{'max_depth': 15, 'min_samples_leaf': 5}",3501.0419468042123,35961.0160407382,206.46113701783548,0.934148224939101,225,1792,True
+Rede neural MLP,teste,"C — calendário, histórico e territoriais","{'hidden': (64, 32), 'alpha': 0.0001}",4162.266905119198,32870.62031114015,505.0340890753648,0.9449801530188002,225,1792,False

@@ -1,0 +1,28 @@
+{
+ "gerado_em": "2026-11-23",
+ "fonte": "DATASUS — SIA/SUS (TabNet): Município × Ano/mês processamento × Quantidade aprovada, Piauí",
+ "periodo_dados": [
+  "2021-01",
+  "2026-08"
+ ],
+ "periodo_treino_alvos": [
+  "2022-01",
+  "2024-12"
+ ],
+ "periodo_validacao": [
+  "2025-01",
+  "2025-12"
+ ],
+ "periodo_teste": [
+  "2026-01",
+  "2026-08"
+ ],
+ "mes_previsto": "2026-09",
+ "modelo_escolhido": "Random Forest",
+ "conjunto_modelo_escolhido": "C — calendário, histórico e territoriais",
+ "versoes": {
+  "pandas": "3.0.6",
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1"
+ }
+}
